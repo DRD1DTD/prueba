@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 5vw;
+    clear: both; 
+  }
+  
+  .pagination-bloque {
+    background-color: #112E40;
+    height: 4vh;
+    width: 2vw;
+    border-radius: 10%;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-bloque.active {
+    background-color: #6CD9BA; /* Cambia el color del bloque activo */
+  }
+  

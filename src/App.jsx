@@ -1,9 +1,9 @@
-import { Products } from './components/Products';
 
+import { Index } from './components/Index'
 
 function App() {
   return (
-      <Products/>
+      <Index />
   );
 }
 
